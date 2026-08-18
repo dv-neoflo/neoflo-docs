@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>HS embed test</title></head>
+<body style="font-family:sans-serif;padding:24px">
+<h3>1. New embed — careers form (6d962255)</h3>
+<script src="https://js-na2.hsforms.net/forms/embed/43666582.js" defer></script>
+<div class="hs-form-frame" data-region="na2" data-form-id="6d962255-5e9c-4a95-b097-99e9ed89f682" data-portal-id="43666582" style="border:1px dashed #ccc;min-height:100px"></div>
+<h3>2. v2 embed — contact form (d1e5a5b8)</h3>
+<div id="v2target" style="border:1px dashed #ccc;min-height:100px"></div>
+<h3>3. v2 embed — careers form (6d962255)</h3>
+<div id="v2careers" style="border:1px dashed #ccc;min-height:100px"></div>
+<script src="https://js-na2.hsforms.net/forms/embed/v2.js"></script>
+<script>
+window.addEventListener('load', function(){
+  hbspt.forms.create({region:"na2",portalId:"43666582",formId:"d1e5a5b8-62cf-4766-b0f5-22988ae04751",target:"#v2target"});
+  hbspt.forms.create({region:"na2",portalId:"43666582",formId:"6d962255-5e9c-4a95-b097-99e9ed89f682",target:"#v2careers"});
+});
+</script>
+</body></html>
